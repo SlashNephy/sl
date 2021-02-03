@@ -1,6 +1,12 @@
 ERUTASO: キータイプ矯正ソフト
 ========================
 
+![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/slashnephy/erutaso)
+
+```shell
+docker run --rm -it slashnephy/erutaso
+```
+
 誰もが一度はlsとerutasoを打ち間違えたことがあるかと思います。
 そういった場合にでも癒やしを得ることが可能な非常に実用性の高いコマンドです。
 https://github.com/mtoyoda/sl
