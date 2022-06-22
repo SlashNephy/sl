@@ -1,6 +1,6 @@
-FROM alpine
+FROM alpine:3.16
 
-COPY . /app/
+COPY ./ /app/
 RUN apk add --update --no-cache --virtual .build-deps \
         build-base \
         ncurses-dev \
