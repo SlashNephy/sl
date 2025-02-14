@@ -1,4 +1,4 @@
-FROM alpine:3.18@sha256:7144f7bab3d4c2648d7e59409f15ec52a18006a128c733fcff20d3a4a54ba44a
+FROM alpine:3.18@sha256:de0eb0b3f2a47ba1eb89389859a9bd88b28e82f5826b6969ad604979713c2d4f
 
 COPY ./ /app/
 RUN apk add --update --no-cache --virtual .build-deps \
